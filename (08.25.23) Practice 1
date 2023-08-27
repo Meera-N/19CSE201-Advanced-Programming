@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+class Example{
+        int number;
+        public:
+           void msg(){
+                  cout<<"This function will be called when no parameters are given as arguments"<<endl;
+           }
+
+           void msg(int a){
+                   number=a;
+                   cout<<"This function will be called when only one parameter is given as argument"<<endl;
+                   }
+};
+
+int main(){
+int no=2;
+Example e;
+e.msg();
+e.msg(no);
+return 0;
+}
