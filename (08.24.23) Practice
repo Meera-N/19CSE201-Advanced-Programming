@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+namespace nm1{
+        void msg(){
+                cout<<"This is message of first namespace!"<<endl;
+        }
+}
+
+namespace nm2{
+        void msg(){
+                cout<<"This is message of second namespace!"<<endl;
+        }
+}
+
+int main(){
+        nm1::msg();
+        nm2::msg();
+//here both functions have same name but with diffn namespaces
+return 0;
+}
