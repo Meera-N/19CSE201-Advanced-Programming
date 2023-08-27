@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+class cys{
+        public:
+               void welcome(){
+                        cout<<"Welcome!"<<endl;
+                }
+};
+
+class rebind:public cys{
+
+};
+
+int main(){
+        cys c;
+        c.welcome();
+        rebind r;
+        r.welcome();
+
+        return 0;
+}
