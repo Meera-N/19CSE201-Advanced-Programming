@@ -1,0 +1,24 @@
+myNeighbours=[41,42,43]
+print(myNeighbours)
+myNeighbours.append(44)
+print(myNeighbours)
+myNeighbours.insert(0,40)
+print(myNeighbours)
+print(myNeighbours.index(42))
+print(myNeighbours)
+myNeighbours.pop(3)
+print(myNeighbours)
+myNeighbours.reverse()
+print(myNeighbours)
+myNeighbours.pop()
+print(myNeighbours)     #will be connected
+b=myNeighbours
+c=myNeighbours.copy()  #will be seperate
+print(b)
+print(c)
+myNeighbours.clear()
+print(myNeighbours)
+del myNeighbours
+#print(myNeighbours) this wont work
+print(b)
+print(c)
